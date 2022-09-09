@@ -40,24 +40,20 @@ var colorCode = function() {
 }
 
 var handleChange = function(event) {
-        var appointmentText = event.target.value
-        return appointmentText
+    var hourId = event.target.id;
+    var appointmentText = event.target.value
+    return appointmentText, hourId
 }
 
 var saveAppointments = function() {
-    // for (i=0; i<hourArr; i++) {
-    //     var hourId = hourArr[i].toString();
-        
-    //     console.log(hourId);
-    // }
-
-    //get hour id
-    //get appointmentText
-    //create an object for each hour
-    //set hour object property to corresponding textArea id
-    //set appointment object property to corresponding textArea value
-    //stringify and set to local storage
-
+    for (i=0; i<hourArr; i++) {
+        //get hour id
+        //get appointmentText
+        //create an object for each hour
+        //set hour object property to corresponding textArea id
+        //set appointment object property to corresponding textArea value
+        //stringify and set to local storage
+    }
 }
 
 displayDate();
