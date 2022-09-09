@@ -38,4 +38,4 @@ The color coding was done using jQuery selectors to dynamically add classes to t
 
 ## Screenshots
 
-![Screenshot](./screenshot.jpg)
+![ScreenShot](./screenshot.png)
